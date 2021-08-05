@@ -1,5 +1,5 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
+<ion-header>
+  <ion-toolbar color="dark">
     <ion-title>
       Pokedex
     </ion-title>
@@ -7,5 +7,92 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
+
+<!-- Searchbar with a placeholder -->
+<ion-searchbar placeholder="Buscar Pokemon"></ion-searchbar>
+
+<!-- List of Text Items -->
+<ion-list>
+  <ion-item lines="full" class="ion-no-padding">
+    <ion-thumbnail slot="start">
+      <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/001.png">
+    </ion-thumbnail>
+    <ion-label>
+      <div>
+        <h3>Bulbasaur</h3>
+        <ion-badge color="verde">Grass</ion-badge>
+        <ion-badge color="lilas">Poison</ion-badge>
+      </div>
+    </ion-label>
+
+    <ion-chip color="success">
+      <ion-label>001</ion-label>
+    </ion-chip>
+  </ion-item>
+
+  <ion-item lines="full" class="ion-no-padding">
+    <ion-thumbnail slot="start">
+      <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/004.png">
+    </ion-thumbnail>
+    <ion-label >
+      <div>
+        <h3>Charmander</h3>
+        <ion-badge color="laranja">Fire</ion-badge>
+      </div>
+    </ion-label>
+
+    <ion-chip color="success">
+      <ion-label>004</ion-label>
+    </ion-chip>
+  </ion-item>
+
+  <ion-item lines="full" class="ion-no-padding">
+    <ion-thumbnail slot="start">
+      <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/007.png">
+    </ion-thumbnail>
+    <ion-label >
+      <div>
+        <h3>Squirtle</h3>
+        <ion-badge color="azul">Water</ion-badge>
+      </div>
+    </ion-label>
+
+    <ion-chip color="success">
+      <ion-label>007</ion-label>
+    </ion-chip>
+  </ion-item>
+
+  <ion-item lines="full" class="ion-no-padding">
+    <ion-thumbnail slot="start">
+      <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/025.png">
+    </ion-thumbnail>
+    <ion-label >
+      <div>
+        <h3>Pikachu</h3>
+        <ion-badge color="amarelo">Electric</ion-badge>
+      </div>
+    </ion-label>
+
+    <ion-chip color="success">
+      <ion-label>025</ion-label>
+    </ion-chip>
+  </ion-item>
+
+  <ion-item lines="full" class="ion-no-padding">
+    <ion-thumbnail slot="start">
+      <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/009.png">
+    </ion-thumbnail>
+    <ion-label >
+      <div>
+        <h3>Blastoise</h3>
+        <ion-badge color="azul">Water</ion-badge>
+      </div>
+    </ion-label>
+
+    <ion-chip color="success">
+      <ion-label>009</ion-label>
+    </ion-chip>
+  </ion-item>
+</ion-list>
 
 </ion-content>
